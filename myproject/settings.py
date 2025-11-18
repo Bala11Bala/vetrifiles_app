@@ -28,7 +28,8 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 
 # ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.1.5']
-ALLOWED_HOSTS = ["vetri-mobileapp.onrender.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["vetrifiles-app.onrender.com", "127.0.0.1", "localhost"]
+
 
 # ALLOWED_HOSTS = ["*"]
 CORS_ALLOW_ALL_ORIGINS = True
