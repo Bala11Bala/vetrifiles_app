@@ -124,5 +124,8 @@ xhtml2pdf==0.2.17
 xlsxwriter==3.2.9
 yarl==1.18.3
 zopfli==0.2.3.post1
+gunicorn
+
+
 
 
