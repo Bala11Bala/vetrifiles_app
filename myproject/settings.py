@@ -61,6 +61,7 @@ MIDDLEWARE = [
 
 
 
+
 ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATES = [
@@ -138,11 +139,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
 STATIC_ROOT = BASE_DIR / "staticfiles"
+
 STATICFILES_DIRS = [BASE_DIR / 'static']
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -166,3 +172,5 @@ EMAIL_HOST_PASSWORD = 'vfrw ockc ipva lzch'
 DEFAULT_FROM_EMAIL = 'abalakannan2001@gmail.com'
 ADMIN_EMAIL = 'balamakesh2001@gmail.com'
 ADMIN_PANEL_URL = 'http://localhost:8000/admin/'
+
+
